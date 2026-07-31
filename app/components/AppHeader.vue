@@ -9,6 +9,7 @@ defineProps<{ showBack?: boolean }>()
 const isMenuOpen = ref(false)
 
 const navItems = [
+  { id: 'tournament', label: 'Tournament', icon: '🏆', to: '/tournament' },
   { id: 'about', label: 'About', icon: '💡', to: '/about' },
   { id: 'resources', label: 'Resources', icon: '📚', to: '/resources' },
   { id: 'blog', label: 'Blog', icon: '📣', to: '/blog' },
